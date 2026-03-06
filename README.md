@@ -10,7 +10,6 @@ The system helps ensure trust, transparency, and safety in online marketplaces b
 
 Verify product condition using AI-based image analysis
 
-Detect damaged, counterfeit, or mismatched products
 
 Reduce return fraud and disputes
 
