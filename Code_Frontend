@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product Checker</title>
+<style>
+body{
+    font-family: Arial;
+    text-align:center;
+    margin-top:100px;
+}
+input,button{
+    padding:10px;
+    font-size:16px;
+}
+#result{
+    margin-top:20px;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Check Product</h2>
+
+<input type="text" id="productInput" placeholder="Enter Product ID">
+<button onclick="checkProduct()">Check Product</button>
+
+<div id="result"></div>
+
+<script>
+function checkProduct(){
+
+    const products = {
+        "P1001": "Laptop",
+        "P1002": "Mobile Phone",
+        "P1003": "Headphones",
+        "P1004": "Keyboard"
+    };
+
+    let input = document.getElementById("productInput").value.toUpperCase();
+    let result = document.getElementById("result");
+
+    if(products[input]){
+        result.innerHTML = "✅ Product Found: " + products[input];
+        result.style.color = "green";
+    }else{
+        result.innerHTML = "❌ Product Not Found";
+        result.style.color = "red";
+    }
+}
+</script>
+
+</body>
+</html>
