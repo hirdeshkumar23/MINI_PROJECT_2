@@ -69,4 +69,3 @@ AI model analyzes product condition
 
 Condition result generated (Safe / Damaged / Suspicious)
 
-Decision sent to e-commerce system.
