@@ -67,5 +67,5 @@ Image preprocessing (resizing, noise removal)
 
 AI model analyzes product condition
 
-Condition result generated (Safe / Damaged / Suspicious)
+
 
