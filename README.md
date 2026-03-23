@@ -65,7 +65,7 @@ Product image uploaded by seller or warehouse
 
 Image preprocessing (resizing, noise removal)
 
-AI model analyzes product condition
+
 
 
 
