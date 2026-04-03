@@ -1,5 +1,19 @@
 
+import zipfile
 
+with zipfile.ZipFile("dataset.zip", 'r') as zip_ref:
+    zip_ref.extractall("dataset")
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+img_size = (224,224)
+batch_size = 32
+
+train_datagen = ImageDataGenerator(
+    rescale=1./255,
+    rotation_range=20,
+    zoom_range=0.2,
+    horizontal_flip=True
+)
 val_datagen = ImageDataGenerator(rescale=1./255)
 
 train_generator = train_datagen.flow_from_directory(
