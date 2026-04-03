@@ -47,25 +47,5 @@ HTML, CSS, JavaScript – Frontend (if applicable)
 
 NumPy & Pandas – Data handling
 
-🏗️ System Architecture
-
-Product image uploaded by seller or warehouse
-
-Image preprocessing (resizing, noise removal)
-
-AI model analyzes product condition
-
-Condition result generated (Safe / Damaged / Suspicious)
-
-Decision sent to e-commerce system.
-
-🏗️ System Architecture
-
-Product image uploaded by seller or warehouse
-
-Image preprocessing (resizing, noise removal)
-
-
-
 
 
