@@ -1,4 +1,5 @@
-
+🛒 AI-Powered Product Condition Verification for Safer E-Commerce
+ Overview
 
 E-commerce platforms often face challenges related to fake, damaged, or mismatched products, leading to customer dissatisfaction and return fraud.
 This project introduces an AI-powered system that automatically verifies the condition of products using image analysis and machine learning before shipment or return approval.
