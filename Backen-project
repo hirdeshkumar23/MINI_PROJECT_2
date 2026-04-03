@@ -40,18 +40,3 @@ def save_data():
 
     return jsonify({"message": "Data saved successfully"})
 
-# API to fetch data
-@app.route('/get', methods=['GET'])
-def get_data():
-    conn = sqlite3.connect('data.db')
-    cursor = conn.cursor()
-
-    cursor.execute("SELECT * FROM records")
-    rows = cursor.fetchall()
-
-    conn.close()
-
-    return jsonify(rows)
-
-if __name__ == '__main__':
-    app.run(debug=True)
