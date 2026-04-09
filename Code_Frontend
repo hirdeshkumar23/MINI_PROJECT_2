@@ -42,7 +42,7 @@ function checkProduct(){
     let result = document.getElementById("result");
 
     if(products[input]){
-        result.innerHTML = "✅ Product Found: " + products[input];
+        result.innerHTML = " Product Found: " + products[input];
         result.style.color = "green";
     }else{
         result.innerHTML = " Product Not Found";
