@@ -45,7 +45,7 @@ function checkProduct(){
         result.innerHTML = "✅ Product Found: " + products[input];
         result.style.color = "green";
     }else{
-        result.innerHTML = "❌ Product Not Found";
+        result.innerHTML = " Product Not Found";
         result.style.color = "red";
     }
 }
